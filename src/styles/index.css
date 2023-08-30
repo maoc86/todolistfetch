@@ -1,12 +1,15 @@
+.container {
+  margin: 30px 0px 0px 300px;
+  width: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #ff0000;
+  padding: 10px;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.btn-close {
+  float: right;
+  padding-right: 10px;
+}
+input {
+  margin: 10px 0 10px 0;
+}
