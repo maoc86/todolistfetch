@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Footer from "./footer";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
 //create your first component
 const home = () => {
   const [newTask, setNewTask] = useState({ label: "", done: false });
